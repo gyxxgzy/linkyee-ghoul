@@ -18,10 +18,10 @@
 
 [中文介紹](https://zhgchg.li/posts/70aeddb1fd9b/)
 
-- [Features](https://github.com/ZhgChgLi/linkyee/tree/main/README.md#features)
-- [Showcase✨](https://github.com/ZhgChgLi/linkyee/tree/main#showcase-)
-- [Get Started – Deploy on GitHub Pages](https://github.com/ZhgChgLi/linkyee/tree/main/README.md#get-started--deploy-on-github-pages)
-- [Configuration & Customized & Automatic Redeployment](https://github.com/ZhgChgLi/linkyee/tree/main/README.md#configuration)
+- [Features](#features)
+- [**Showcase✨**](#showcase-)
+- [Get Started – Deploy on GitHub Pages](#get-started--deploy-on-github-pages)
+- [Configuration & Customized & Automatic Redeployment](#configuration)
 - [Custom Domain](https://en.zhgchg.li/posts/483af5d93297/)
 
 ## Features
