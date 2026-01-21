@@ -282,7 +282,7 @@ Real websites built with **linkyee** — fast, clean, and open-source.
 
 | Preview | Website | Description |
 |--------|--------|-------------|
-| <img width="180" height="180" alt="ZhgChgLi" src="https://github.com/user-attachments/assets/9052e290-f6b8-4a94-a71e-85ec36cd2900" /> | [link.zhgchg.li](https://link.zhgchg.li) | Official demo · My personal link page |
+| <img width="180" height="180" alt="ZhgChgLi" src="https://github.com/user-attachments/assets/9052e290-f6b8-4a94-a71e-85ec36cd2900" /> | [link.zhgchg.li](https://link.zhgchg.li) | ZhgChgLi (Harry Li)'s Personal blog link page |
 | - |Your Site | Your site could be featured here 🚀 |
 
 ---
