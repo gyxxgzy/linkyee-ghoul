@@ -28,5 +28,14 @@ jobs:
           ruby-version: 3.4.2
           bundler-cache: true
 
-      - name: Deploy
-        run: bash deploy.sh
+      - name: Build
+        run: bundle exec ruby scaffold.rb
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          directory: _output
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
