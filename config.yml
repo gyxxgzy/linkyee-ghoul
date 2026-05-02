@@ -11,9 +11,6 @@ lang: "zh-CN"
 
 # The output of the plugin can be used below, e.g., {{vars.GithubRepoStarsCountPlugin}}
 plugins:
-  # Automatically fetch Github repo star count
-  - GithubRepoStarsCountPlugin:
-
 
 # Google Analytics tracking id
 google_analytics_id:
