@@ -38,14 +38,14 @@ tagline: >-
 links:
   - link:
       icon: "fa-solid fa-blog"
-      text: "Tech Blog <span class='link-button-text'>(100+ Posts)</span>"
+      text: "Blog"
       url: "https://blog.gyxxgzy.com"
       alt: "Ghoul's Blog"
       title: "Ghoul's Blog"
       target: "_blank"
   - link:
-      icon: "fa-brands fa-notion"
-      text: "Travelog <span class='link-button-text'>(10+ Posts)</span>"
+      icon: "./images/notion.svg"
+      text: "Notion Blog (stopped)"
       url: "https://notion.gyxxgzy.com"
       alt: "Ghoul's Notion Blog"
       title: "Ghoul's Notion Blog"
