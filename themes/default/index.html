@@ -32,7 +32,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
   <link rel="manifest" href="./images/favicons/site.webmanifest">
-  <link rel="shortcut icon" href="./images/favicons/favicon.ico">
+  <link rel="icon" type="image/png" href="./images/favicons/favicon.png">
   <meta name="apple-mobile-web-app-title" content="{{ title }}">
   <meta name="application-name" content="{{ title }}">
   <meta name="msapplication-TileColor" content="#da532c">
@@ -54,7 +54,12 @@
       {% for item in links %}
         {% assign link = item.link %}
         <a href="{{ link.url }}" target="{{ link.target }}" class="link-button" alt="{{ link.alt }}" title="{{ link.title }}">
-          <i class="{{ link.icon }}"></i> {{ link.text }}
+          {% if link.icon contains 'fa-' %}
+            <i class="{{ link.icon }}"></i>
+          {% else %}
+            <img src="{{ link.icon }}" class="link-icon" alt="">
+          {% endif %}
+          {{ link.text }}
         </a>
       {% endfor %}
     </div>
@@ -64,7 +69,11 @@
         {% for item in socials %}
           {% assign social = item.social %}
           <a href="{{ social.url }}" title="{{ social.title }}" target="{{ social.target }}" class="icon-button" alt="{{ social.alt }}">
-            <i class="{{ social.icon }}"></i>
+            {% if social.icon contains 'fa-' %}
+              <i class="{{ social.icon }}"></i>
+            {% else %}
+              <img src="{{ social.icon }}" class="social-icon-img" alt="">
+            {% endif %}
           </a>
         {% endfor %}
       </div>
