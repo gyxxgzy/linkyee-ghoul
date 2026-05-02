@@ -44,7 +44,7 @@ links:
       title: "Ghoul's Blog"
       target: "_blank"
   - link:
-      icon: "./images/notion.svg"
+      icon: "fa-solid fa-align-left"
       text: "Notion Blog (stopped)"
       url: "https://notion.gyxxgzy.com"
       alt: "Ghoul's Notion Blog"
