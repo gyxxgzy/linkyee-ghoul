@@ -46,9 +46,16 @@ links:
   - link:
       icon: "fa-solid fa-align-left"
       text: "Notion Blog (stopped)"
-      url: "https://notion.gyxxgzy.com"
+      url: "https://fate-playroom-743.notion.site/Ghoul-f6d688f627ff43f1aa9d8a6c1f5f617e"
       alt: "Ghoul's Notion Blog"
       title: "Ghoul's Notion Blog"
+      target: "_blank"
+  - link:
+      icon: "fa-solid fa-newspaper"
+      text: "News Site"
+      url: "https://news.gyxxgzy.com/"
+      alt: "Gyxxgzy News Site"
+      title: "Gyxxgzy News Site"
       target: "_blank"
 
 
